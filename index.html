@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2>Customer Feedback Form</h2>
+    
+    <form>
+        <div>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+        </div>
+        <br>
+
+        <!-- Email Field -->
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+        </div>
+        <br>
+
+        <!-- Phone Field -->
+        <div>
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+        </div>
+        <br>
+
+        <!-- Rating Field -->
+        <div>
+            <label>Rating:*</label><br>
+            <input type="radio" id="star5" name="rating" value="5" required>
+            <label for="star5">5</label>
+            <input type="radio" id="star4" name="rating" value="4">
+            <label for="star4">4</label>
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3">3</label>
+            <input type="radio" id="star2" name="rating" value="2">
+            <label for="star2">2</label>
+            <input type="radio" id="star1" name="rating" value="1">
+            <label for="star1">1</label>
+        </div>
+        <br>
+
+        <!-- Questions Field -->
+        <div>
+            <label for="questions">Questions regarding product or service:*</label><br>
+            <textarea id="questions" name="questions" rows="4" cols="50" required placeholder="Enter your questions here"></textarea>
+        </div>
+        <br>
+
+        <!-- Additional Comments Field -->
+        <div>
+            <label for="comments">Additional Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter any additional comments"></textarea>
+        </div>
+        <br>
+
+        <!-- Submit Button -->
+        <div>
+            <input type="submit" value="Submit Feedback">
+        </div>
+    </form>
+
+</body>
+</html>
